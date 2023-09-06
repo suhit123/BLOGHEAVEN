@@ -80,9 +80,9 @@ const Nav = () => {
             <div className="searchBarResults">
               {users.map((item) => {
                 return (
-                  <Link
+                  <a
                     className="searchBarResultLink"
-                    to={`/blogs/user/${item.username}`}
+                    href={`/blogs/user/${item.username}`}
                   >
                     <div className="searchBarResult">
                       {item.gender === "Female" ? (
@@ -98,7 +98,7 @@ const Nav = () => {
                       )}
                       <p>{item.username}</p>
                     </div>
-                  </Link>
+                  </a>
                 );
               })}
             </div>

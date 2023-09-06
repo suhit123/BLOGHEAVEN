@@ -204,5 +204,9 @@
     }
     .categories li button:hover{
         border-bottom: 1px solid grey;
-    }
+    }.dataLoader {
+        margin-top: 150px;
+        top: 40%;
+        left: 45%;
+      }
 }
